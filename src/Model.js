@@ -9,7 +9,7 @@ const handlePrint = useReactToPrint({
   content: () => printRef.current
 })
 const handleClick = ()=>{
-  alert("I am an alert box!")
+  alert("Your order has been placed!")
   setIsOpen(!isOpen)
 }
 
